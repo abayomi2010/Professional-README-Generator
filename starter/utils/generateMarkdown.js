@@ -6,9 +6,26 @@ function renderLicenseBadge(license) {
   return ""
 }
 
+const renderLicenseBadge = (license) => {
+  if (license!== "None") {
+    return `\n* [License](#license)\n`
+  }
+}
+
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+
+  ### Description
+  ${data.Description}
+
+  ### Table of Contents
+
+  * [Installation](#installation)
+
+  *[Usage](#usage)
+
+
 `;
 }
 
