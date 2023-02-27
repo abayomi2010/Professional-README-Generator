@@ -53,3 +53,7 @@
   
   ### Questions
   Open an issue if you have any questions about the repo, or contact me directly at abayomibalogun2010@gmail.com. You can find more of my work at [abayomibalogun2010](https://github.com/abayomibalogun2010) 
+
+
+  ## Functionality
+  The following video is an example of an app demonstrating command-line functionality: https://drive.google.com/file/d/13WaY1wNgyjSeZSCPp_sL1zuVRWHFLGxA/view
