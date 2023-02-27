@@ -8,12 +8,12 @@ const questions = [
     {
         type: 'input',
         message: 'What is your Github username??',
-        name: 'GitHub',
+        name: 'github',
       },
       {
         type: 'input',
         message: 'What is your email address?', 
-        name: 'Email',
+        name: 'email',
       },
       {
         type: 'input',
@@ -23,7 +23,7 @@ const questions = [
       {
         type: 'input',
         message: "Please, write  short descrition of your project",
-        name: 'Description',
+        name: 'description',
       },
       {
         type: 'list',
@@ -34,7 +34,7 @@ const questions = [
       {
         type: 'input',
         message: "What command should be used to install dependencies?",
-        name: 'Installation',
+        name: 'installation',
         default: "npm i ",
       },
       {
@@ -46,12 +46,12 @@ const questions = [
       {
         type: 'input',
         message: "What does the user need to know about using the repo?",
-        name: 'Usage',
+        name: 'usage',
       },
       {
         type: 'input',
         message: "What does the user need to know about contributing to the repo?",
-        name: 'Contributing',
+        name: 'contributing',
       }
 ];
 
